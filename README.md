@@ -12,8 +12,8 @@ Data source: https://github.com/CSSEGISandData/COVID-19
 16
 
 #### Docker Launch
-1. docker build -t coronavirus-tracker .
-2. docker run -p 9002:8080 coronavirus-tracker:latest
+1. `docker build -t coronavirus-tracker .`
+2. `docker run -p 9002:8080 coronavirus-tracker:latest`
 3. Navigate browser to http://localhost:9002
 
 #### Maven Launch

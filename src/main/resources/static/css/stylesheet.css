@@ -1,5 +1,5 @@
 body {
-    background-color: #d5fff8;
+    background-color: #fffedf;
 }
 
 .container {
@@ -7,7 +7,7 @@ body {
 }
 
 .jumbotron {
-    background-color: #c3f5bf;
+    background-color: #59fcc2;
     padding: 1%;
     border-radius: 10px
 }
