@@ -8,6 +8,9 @@
 Spring Boot app which tracks coronavirus outbreak data.  
 Data source: https://github.com/CSSEGISandData/COVID-19
 
+### Demo
+https://coronavirus-tracker-demo.herokuapp.com/
+
 #### Java Version
 16
 
