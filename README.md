@@ -5,11 +5,7 @@
 ## Built with Spring Boot and Thymeleaf
 
 ### Description
-Spring Boot app which tracks coronavirus outbreak data.  
-Data source: https://github.com/CSSEGISandData/COVID-19
-
-### Demo
-https://coronavirus-tracker-demo.herokuapp.com/
+Spring Boot app which tracks coronavirus outbreak data and updates daily changes. Demo can be found hosted on Heroku: https://coronavirus-tracker-demo.herokuapp.com/
 
 #### Java Version
 16
