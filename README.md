@@ -2,13 +2,14 @@
 ![](https://github.com/Lylio/image-repo/blob/master/logos/thymeleaf.png?raw=true)
 
 # Coronavirus Tracker
-## Built with Spring Boot and Thymeleaf
 
 ### Description
-Spring Boot app which tracks coronavirus outbreak data and updates daily changes. Demo can be found hosted on Heroku: https://coronavirus-tracker-demo.herokuapp.com/
+Spring Boot app which tracks coronavirus outbreak data and updates daily changes.  
+Demo can be found hosted on Heroku: https://coronavirus-tracker-demo.herokuapp.com/
 
-#### Java Version
-16
+### Tech Stack
+- Spring Boot (JDK 11)
+- Thymeleaf
 
 #### Docker Launch
 1. `docker build -t coronavirus-tracker .`
@@ -16,7 +17,7 @@ Spring Boot app which tracks coronavirus outbreak data and updates daily changes
 3. Navigate browser to http://localhost:9002
 
 #### Maven Launch
-1. Ensure Java version 16 is installed
+1. Ensure Java version 11 is installed
 2. `mvn spring-boot:run`
 3. Open browser at http://localhost:8080
 

@@ -1,17 +1,34 @@
 body {
-    background-color: #fffedf;
+    background-color: #FFFFFF;
+    color: #696969;
 }
 
 .container {
     margin-top: 1%;
 }
 
+.copyright {
+    color: #696969;
+}
+    .copyright a {
+        color: #696969;
+        text-decoration-line: none;
+    }
+    .copyright a:hover {
+        color: #ABABAB;
+    }
+
 .jumbotron {
-    background-color: #59fcc2;
+    background-color: #F5F5F5;
     padding: 1%;
     border-radius: 10px
 }
 
 .jumbotron h1 {
     font-weight: bold;
+    color: #89C92A;
+}
+
+.table {
+    color: #696969;
 }
