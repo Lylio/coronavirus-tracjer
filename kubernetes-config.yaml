@@ -29,6 +29,6 @@ spec:
     spec:
       containers:
         - name: coronavirus-tracker
-          image: lylio/coronavirus-tracker:3
+          image: lylio/coronavirus-tracker:latest
           ports:
             - containerPort: 8080 # The port that the container is running on in the cluster
