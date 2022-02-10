@@ -11,9 +11,7 @@ node {
 	    }
 
 	    stage('Run Unit Tests') {
-	        steps {
-	            sh './mvnw test'
-	        }
+	        sh './mvnw test'
 	    }
 
 		stage('Build JAR') {
