@@ -4,10 +4,16 @@ node {
 	def branch = 'main'
 
 	try {
-		stage('Clone repository') {
+		stage('Clone Repository') {
 	    	git branch: branch,
 	        	credentialsId: 'Lylio-GitHub',
 	        	url: 'https://github.com/Lylio/coronavirus-tracker.git'
+	    }
+
+	    stage('Run Unit Tests') {
+	        steps {
+	            sh './mvnw test'
+	        }
 	    }
 
 		stage('Build JAR') {
@@ -17,12 +23,12 @@ node {
 	    	}
 	    }
 
-	    stage('Build Image') {
+	    stage('Build Docker Image') {
 	    	unstash 'jar'
 			app = docker.build image
 	    }
 
-	    stage('Push') {
+	    stage('Push to DockerHub') {
 	    	docker.withRegistry('https://registry.hub.docker.com', 'dockerhub_id') {
 				app.push("${env.BUILD_NUMBER}")
 				app.push("latest")
