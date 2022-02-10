@@ -4,12 +4,10 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import com.lylechristine.coronavirustracker.controllers.HomeController;
-import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@Slf4j
 @SpringBootTest
 class CoronavirusTrackerApplicationTests {
 
@@ -28,7 +26,6 @@ class CoronavirusTrackerApplicationTests {
         int y = 88;
 
         assertEquals(x, y);
-        log.info("*** First test passed successfully ***");
     }
 
     @Test
@@ -37,6 +34,5 @@ class CoronavirusTrackerApplicationTests {
         int b = 900;
 
         assertEquals(a, b);
-        log.info("*** Second dummy test passed successfully ***");
     }
 }
