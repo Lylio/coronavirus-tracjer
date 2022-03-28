@@ -1,13 +1,13 @@
 node {
 	def app
-	def image = 'registry.hub.docker.com/lylio/coronavirus-tracker'
+	def image = 'registry.hub.docker.com/lylio/rona-report'
 	def branch = 'main'
 
 	try {
 		stage('Clone Repository') {
 	    	git branch: branch,
 	        	credentialsId: 'Lylio-GitHub',
-	        	url: 'https://github.com/Lylio/coronavirus-tracker.git'
+	        	url: 'https://github.com/Lylio/rona-report.git'
 	    }
 
 	    stage('Run Unit Tests') {

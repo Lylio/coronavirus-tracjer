@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.lylechristine</groupId>
-    <artifactId>coronavirus-tracker</artifactId>
+    <artifactId>rona-report</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>coronavirus-tracker</name>
+    <name>rona-report</name>
     <description>Coronavirus data tracker</description>
     <properties>
         <java.version>11</java.version>

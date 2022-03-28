@@ -1,19 +1,19 @@
 ![](https://github.com/Lylio/image-repo/blob/master/logos/spring-boot.png?raw=true)
 ![](https://github.com/Lylio/image-repo/blob/master/logos/thymeleaf.png?raw=true)
 
-# Coronavirus Tracker
+# Rona Report
 
 ### Description
-Spring Boot app which tracks coronavirus outbreak data and updates daily changes.  
-Demo can be found hosted on Heroku: https://coronavirus-tracker-demo.herokuapp.com/
+A coronavirus tracking app which pulls together pandemic outbreak data and updates daily changes to the figures.  
+Demo can be found hosted on Heroku: https://rona-report.lyle.app
 
 ### Tech Stack
 - Spring Boot (JDK 11)
 - Thymeleaf
 
 #### Docker Launch
-1. `docker build -t coronavirus-tracker .`
-2. `docker run -p 9002:8080 coronavirus-tracker:latest`
+1. `docker build -t rona-report .`
+2. `docker run -p 9002:8080 rona-report:latest`
 3. Navigate browser to http://localhost:9002
 
 #### Maven Launch
