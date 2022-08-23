@@ -5,7 +5,7 @@
 
 ### Description
 A coronavirus tracking app which pulls together pandemic outbreak data and updates daily changes to the figures.  
-Demo can be found hosted on Heroku: https://rona-report.lyle.app
+Demo can be found at: https://rona-report.lyle.app
 
 ### Tech Stack
 - Spring Boot (JDK 11)
